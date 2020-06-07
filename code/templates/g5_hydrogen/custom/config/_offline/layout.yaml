@@ -1,0 +1,36 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/offline.png'
+  name: _offline
+  timestamp: 1591526639
+layout:
+  /header/:
+    -
+      - 'logo-6451 30'
+      - 'spacer-9091 70'
+  /main/:
+    -
+      - system-messages-8365
+    -
+      - system-content-3593
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-3040 40'
+      - 'spacer-7023 30'
+      - 'branding-2543 30'
+structure:
+  header:
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  position-footer:
+    attributes:
+      key: footer
